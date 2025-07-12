@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.one {
+  background-color: '#D1EAFO'
+}
+
+
+/*  @apply bg-one;*/
+
+
