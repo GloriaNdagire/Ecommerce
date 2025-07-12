@@ -49,7 +49,7 @@ const assign =() => {
 
      return (
         
-            <body>
+            <div>
                
                 <div className="flex justify-between bg-gray-100 fixed top-0 left-0 z-50 shadow-md w-full">
                   
@@ -104,7 +104,7 @@ const assign =() => {
                      <p className="items-center">&copy; 2025 MarketPlace. All rights reserved.</p>
                 </footer>
              </div>
-            </body>
+            </div>
 
 
         
