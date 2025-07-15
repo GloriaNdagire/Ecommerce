@@ -61,7 +61,7 @@ const assign =() => {
                 <div className="flex justify-between bg-gray-100 fixed top-0 left-0 z-50 shadow-md w-full">
                   
                   <div >
-                    <img src="./img/logo4.png" className="w-1/4 animate-bounce "></img>
+                    <img src="./img/logo4.png" className="w-1/4 "></img>
                   </div>
                   <div className="text-white items-center sm:justify-center md:justify-end flex bg-gray-300 rounded m-9 pl-8 pr-8 mr-10 transition duration-300 ease-in-out hover:bg-gray-800  transform hover:scale-110">
                     <a href="" className="text-semibold text-xl ">LOG IN</a>
@@ -69,7 +69,7 @@ const assign =() => {
                 </div>
                  
 
-        <div className="flex">
+        <div className="flex overflow-y-auto">
             <div className=" bg-gray-300 w-1/5 pb-25 shadow-md rounded-10 mt-34">
               <span className="flex flex-col m-1 mb-1">
                 <a href="" className="mt-20 border-b border-gray-100" id="phones" onClick={(e) => handleCategoryClick(e, "Phones")}>Phones</a>
