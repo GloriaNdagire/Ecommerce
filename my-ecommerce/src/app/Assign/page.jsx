@@ -32,12 +32,12 @@ const assign =() => {
               "/img/img2.jpg",
             ],
             shoes: [
-              "/img/img2.jpg",
-              "/img/img2.jpg",
-              "/img/img2.jpg",
-              "/img/img2.jpg",
-              "/img/img2.jpg",
-              "/img/img2.jpg",
+              "/img/img2.1.jpg",
+              "/img/img2.2.jpg",
+              "/img/img2.3.jpg",
+              "/img/img2.4.jpg",
+              "/img/img2.2.jpg",
+              "/img/img2.1.jpg",
             ],
             accessories: [
               "/img/img4.jpg",
@@ -56,14 +56,14 @@ const assign =() => {
  */}
      return (
         
-            <div>
+            <div className="one">
                
                 <div className="flex justify-between bg-gray-100 fixed top-0 left-0 z-50 shadow-md w-full">
                   
                   <div >
                     <img src="./img/logo4.png" className="w-1/4 animate-bounce "></img>
                   </div>
-                  <div className="text-white-300 items-center sm:justify-center md:justify-end flex bg-gray-300 rounded m-9 pl-8 pr-8 mr-10 transition duration-300 ease-in-out hover:bg-gray-800  transform hover:scale-110">
+                  <div className="text-white items-center sm:justify-center md:justify-end flex bg-gray-300 rounded m-9 pl-8 pr-8 mr-10 transition duration-300 ease-in-out hover:bg-gray-800  transform hover:scale-110">
                     <a href="" className="text-semibold text-xl ">LOG IN</a>
                   </div>
                 </div>
@@ -90,7 +90,6 @@ const assign =() => {
                 </div>
               ))}
             </div>
-
 
 
 
