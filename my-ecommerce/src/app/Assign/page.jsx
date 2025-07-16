@@ -56,7 +56,7 @@ const assign =() => {
  */}
      return (
         
-            <div className="one">
+            <div className="bg-[#D1EAFO]">
                
                 <div className="flex justify-between bg-gray-100 fixed top-0 left-0 z-50 shadow-md w-full">
                   
